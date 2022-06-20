@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="10.3.3" />
+    <PackageReference Include="MediatR" Version="9.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.2.2" />
+    <PackageReference Include="NPOI" Version="2.5.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Mahamma.Base.Dto\Mahamma.Base.Dto.csproj" />
+    <ProjectReference Include="..\Mahamma.Base.Resources\Mahamma.Base.Resources.csproj" />
+    <ProjectReference Include="..\Mahamma.Domain\Mahamma.Domain.csproj" />
+    <ProjectReference Include="..\Mahamma.Helper.EmailSending\Mahamma.Helper.EmailSending.csproj" />
+    <ProjectReference Include="..\Mahamma.Identity.ApiClient\Mahamma.Identity.ApiClient.csproj" />
+    <ProjectReference Include="..\Mahamma.Infrastructure\Mahamma.Infrastructure.csproj" />
+    <ProjectReference Include="..\Mahamma.Integration.Meeting.Zoom\Mahamma.Integration.Meeting.Zoom.csproj" />
+    <ProjectReference Include="..\Mahamma.Identity.Domain\Mahamma.Identity.Domain.csproj" />
+    <ProjectReference Include="..\Mahamma.Notification.ApiClient\Mahamma.Notification.ApiClient.csproj" />
+  </ItemGroup>
+
+</Project>

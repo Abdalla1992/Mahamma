@@ -1,0 +1,570 @@
+﻿[
+  {
+    "Key": "AddProjectTitle",
+    "LocalizedValue": {
+      "0": "Add Project",
+      "1": " اضافة مشروع"
+    }
+  },
+  {
+    "Key": "AddProjectBody",
+    "LocalizedValue": {
+      "0": " added you to project With Name : ",
+      "1": " باضافتك في فريق مشروع "
+    }
+  },
+  {
+    "Key": "AddWorkspaceTitle",
+    "LocalizedValue": {
+      "0": "Add Workspace",
+      "1": " اضافة مساحة عمل "
+    }
+  },
+  {
+    "Key": "AddWorkspaceBody",
+    "LocalizedValue": {
+      "0": "  added you to Workspace With Name : ",
+      "1": " : باضافتك في مساحة عمل باسم   "
+    }
+  },
+  {
+    "Key": "AddProjectFileTitle",
+    "LocalizedValue": {
+      "0": " Add Project File",
+      "1": "اضافة ملفات مشروع"
+    }
+  },
+  {
+    "Key": "AddProjectFileBody",
+    "LocalizedValue": {
+      "0": "Add Project File",
+      "1": "اضافة ملفات مشروع"
+    }
+  },
+  {
+    "Key": "ArchiveProjectTitle",
+    "LocalizedValue": {
+      "0": "Archive Project ",
+      "1": "اضافة المشروع الى الارشيف"
+    }
+  },
+  {
+    "Key": "ArchiveProjectBody",
+    "LocalizedValue": {
+      "0": "Archived Project With Name :  ",
+      "1": "باضافة المشروع الى الارشيف"
+    }
+  },
+  {
+    "Key": "AssignMemberToWorkspaceTitle",
+    "LocalizedValue": {
+      "0": "Assign Member To Worksapce ",
+      "1": "اضافة عضو جديد الى مساحة العمل"
+    }
+  },
+  {
+    "Key": "AssignMemberToWorkspaceBody",
+    "LocalizedValue": {
+      "0": "Assigned You To Worksapce With Name : ",
+      "1": "اضافة عضو جديد الى مساحة العمل"
+    }
+  },
+
+  {
+    "Key": "AssignMemberToProjectTitle",
+    "LocalizedValue": {
+      "0": "Assign Member To Project",
+      "1": " : باضافتك الى مساحة العمل "
+    }
+  },
+  {
+    "Key": "AssignMemberToProjectBody",
+    "LocalizedValue": {
+      "0": "Assigned You To Project With Name : ",
+      "1": ": باضافتك الى مشروع "
+    }
+  },
+  {
+    "Key": "AssignMemberToTaskTitle",
+    "LocalizedValue": {
+      "0": "Assign Member To Task",
+      "1": " اضافة عضو جديد الى المهمة"
+    }
+  },
+  {
+    "Key": "AssignMemberToTaskBody",
+    "LocalizedValue": {
+      "0": "Assign You To Task With Name : ",
+      "1": ": باضافتك الى مهمة "
+    }
+  },
+  {
+    "Key": "DeleteProjectTitle",
+    "LocalizedValue": {
+      "0": "Delete Project ",
+      "1": "مسح مشروع"
+    }
+  },
+  {
+    "Key": "DeleteProjectBody",
+    "LocalizedValue": {
+      "0": "Deleted Project With Name :  ",
+      "1": " بمسح  مشروع"
+    }
+  },
+  {
+    "Key": "DeleteProjectFileTitle",
+    "LocalizedValue": {
+      "0": "Delete Project File ",
+      "1": "مسح ملفات مشروع"
+    }
+  },
+  {
+    "Key": "DeleteProjectFileBody",
+    "LocalizedValue": {
+      "0": "Delete Project File",
+      "1": "مسح ملفات مشروع"
+    }
+  },
+  {
+    "Key": "UpdateProjectTitle",
+    "LocalizedValue": {
+      "0": "Update Project ",
+      "1": "تعديل  مشروع"
+    }
+  },
+  {
+    "Key": "UpdateProjectBody",
+    "LocalizedValue": {
+      "0": "Updated Project Name",
+      "1": "قام بتعديل مشروع"
+    }
+  },
+  {
+    "Key": "AddCommentTitle",
+    "LocalizedValue": {
+      "0": "Add Comment ",
+      "1": "اضافة تعليق"
+    }
+  },
+  {
+    "Key": "AddCommentBody",
+    "LocalizedValue": {
+      "0": " Added Comment With Task Name : ",
+      "1": "باضافة تعليق فى مهمة باسم  "
+    }
+  },
+  {
+    "Key": "AddSubTaskTitle",
+    "LocalizedValue": {
+      "0": "  Add Sub Task ",
+      "1": "اضافة مهمة فرعية"
+    }
+  },
+  {
+    "Key": "AddSubTaskBody",
+    "LocalizedValue": {
+      "0": " Added Sub Task To You With Name : ",
+      "1": " : باضافة مهمة فرعية لك باسم "
+    }
+  },
+  {
+    "Key": "AddTaskTitle",
+    "LocalizedValue": {
+      "0": " Add Task ",
+      "1": "اضافة مهمة "
+    }
+  },
+  {
+    "Key": "AddTaskBody",
+    "LocalizedValue": {
+      "0": " Added Task To You Task Name : ",
+      "1": "  باضافة مهمة لك باسم  "
+    }
+  },
+  {
+    "Key": "AddTaskFileTitle",
+    "LocalizedValue": {
+      "0": "Add Task File ",
+      "1": "اضافة ملفات للمهمة"
+    }
+  },
+  {
+    "Key": "AddTaskFileBody",
+    "LocalizedValue": {
+      "0": "Add Task File",
+      "1": "اضافة ملفات للمهمة"
+    }
+  },
+  {
+    "Key": "ArchiveTaskTitle",
+    "LocalizedValue": {
+      "0": "Archive Task ",
+      "1": "اضافة المهمة الى الارشيف"
+    }
+  },
+  {
+    "Key": "ArchiveTaskBody",
+    "LocalizedValue": {
+      "0": "Archived Task With Name : ",
+      "1": " باضفة المهمة الى الارشيف"
+    }
+  },
+  {
+    "Key": "ArchiveTaskListTitle",
+    "LocalizedValue": {
+      "0": "Archive Task List",
+      "1": "اضافة مجموعة مهمات الى الارشيف"
+    }
+  },
+  {
+    "Key": "ArchiveTaskListBody",
+    "LocalizedValue": {
+      "0": "Archive Task List",
+      "1": "اضافة مجموعة مهمات الى الارشيف"
+    }
+  },
+  {
+    "Key": "DeleteCommentTitle",
+    "LocalizedValue": {
+      "0": " Delete Comment",
+      "1": "مسح كومنت "
+    }
+  },
+  {
+    "Key": "DeleteCommentBody",
+    "LocalizedValue": {
+      "0": " Delete Comment",
+      "1": "مسح كومنت "
+    }
+  },
+  {
+    "Key": "DeleteTaskTitle",
+    "LocalizedValue": {
+      "0": " Delete Task",
+      "1": " مسح مهمة"
+    }
+  },
+  {
+    "Key": "DeleteTaskBody",
+    "LocalizedValue": {
+      "0": " Deleted Task With Name : ",
+      "1": " : بمسح  مهمة"
+    }
+  },
+  {
+    "Key": "DeleteTaskFileTitle",
+    "LocalizedValue": {
+      "0": " Delete Task File",
+      "1": "مسح ملف للمهمة "
+    }
+  },
+  {
+    "Key": "DeleteTaskFileBody",
+    "LocalizedValue": {
+      "0": " Delete Task File",
+      "1": "مسح ملف  للمهمة "
+    }
+  },
+  {
+    "Key": "DeleteTaskListTitle",
+    "LocalizedValue": {
+      "0": " Delete Task List",
+      "1": " مسح مجموعة  مهمات"
+    }
+  },
+  {
+    "Key": "DeleteTaskListBody",
+    "LocalizedValue": {
+      "0": " Delete Task List",
+      "1": " مسح مجموعة  مهمات"
+    }
+  },
+  {
+    "Key": "LikeCommentTitle",
+    "LocalizedValue": {
+      "0": " Like Comment",
+      "1": " اعجبنى تعليق"
+    }
+  },
+  {
+    "Key": "LikeCommentBody",
+    "LocalizedValue": {
+      "0": " Liked Comment With Task Name : ",
+      "1": " : بعمل اعجبنى التعليق فى مهمة باسم "
+    }
+  },
+  {
+    "Key": "SubmitTaskTitle",
+    "LocalizedValue": {
+      "0": " Submit Task",
+      "1": "عمل تاكيد انتهاء للمهمة "
+    }
+  },
+  {
+    "Key": "SubmitTaskBody",
+    "LocalizedValue": {
+      "0": " Submited Task With Name : ",
+      "1": " : بعمل تاكيد انتهاء للمهمة باسم  "
+    }
+  },
+  {
+    "Key": "UpdateTaskTitle",
+    "LocalizedValue": {
+      "0": " Update Task",
+      "1": "تعديل المهمة "
+    }
+  },
+  {
+    "Key": "UpdateTaskBody",
+    "LocalizedValue": {
+      "0": " Updated Task With Name : ",
+      "1": " : بتعديل مهمة باسم "
+    }
+  },
+  {
+    "Key": "DeleteWorkSpaceTitle",
+    "LocalizedValue": {
+      "0": " Delete WorkSpace",
+      "1": "اضافة مساحة عمل "
+    }
+  },
+  {
+    "Key": "DeleteWorkSpaceBody",
+    "LocalizedValue": {
+      "0": " Delete WorkSpace",
+      "1": "مسح مساحة عمل "
+    }
+  },
+  {
+    "Key": "UpdateWorkSpaceTitle",
+    "LocalizedValue": {
+      "0": " Update WorkSpace",
+      "1": "تعديل مساحة عمل "
+    }
+  },
+  {
+    "Key": "UpdateWorkSpaceBody",
+    "LocalizedValue": {
+      "0": " Updated WorkSpace With Name : ",
+      "1": " : بتعديل مساحة عمل باسم  "
+    }
+  },
+  {
+    "Key": "AcceptedTaskTitle",
+    "LocalizedValue": {
+      "0": " Task Accepted",
+      "1": "مهمة مقبولة "
+    }
+  },
+  {
+    "Key": "AcceptedTaskBody",
+    "LocalizedValue": {
+      "0": " Accepted A Task With Name : ",
+      "1": " قبل مهمة بالاسم : "
+    }
+  },
+  {
+    "Key": "RejectTaskTitle",
+    "LocalizedValue": {
+      "0": " Task Accepted",
+      "1": "مهمة مرفوضة "
+    }
+  },
+  {
+    "Key": "RejectTaskBody",
+    "LocalizedValue": {
+      "0": " Accepted A Task With Name : ",
+      "1": "رفض مهمة بالاسم  : "
+    }
+  },
+  {
+    "Key": "MentionCommentTitle",
+    "LocalizedValue": {
+      "0": " Mention",
+      "1": " اشاره لك"
+    }
+  },
+  {
+    "Key": "MentionCommentBody",
+    "LocalizedValue": {
+      "0": " mentioned you in a comment",
+      "1": "اشار لك في تعليق "
+    }
+  },
+  {
+    "Key": "MeetingAddedTitle",
+    "LocalizedValue": {
+      "0": " New Meeting",
+      "1": "اجتماع جديد "
+    }
+  },
+  {
+    "Key": "MeetingAddedBody",
+    "LocalizedValue": {
+      "0": " added a new meeting",
+      "1": "اضاف اجتماع جديد "
+    }
+  },
+  {
+    "Key": "MeetingUpdatedTitle",
+    "LocalizedValue": {
+      "0": " Meeting updated",
+      "1": " تم تحديث الاجتماع"
+    }
+  },
+  {
+    "Key": "MeetingUpdatedBody",
+    "LocalizedValue": {
+      "0": " have updated the meeting",
+      "1": "قام بتحديث تفاصيل الاجتماع "
+    }
+  },
+  {
+    "Key": "MeetingCanceledTitle",
+    "LocalizedValue": {
+      "0": " Meeting Canceled",
+      "1": " الغاء الاجتماع"
+    }
+  },
+  {
+    "Key": "MeetingCanceledBody",
+    "LocalizedValue": {
+      "0": " have canceled the meeting",
+      "1": " قام بالغاء الاجتماع"
+    }
+  },
+  {
+    "Key": "UpdateSubTaskTitle",
+    "LocalizedValue": {
+      "0": " Subtask update",
+      "1": "تحديث مهمة فرعية "
+    }
+  },
+  {
+    "Key": "UpdateSubTaskBody",
+    "LocalizedValue": {
+      "0": " have updated subtask ",
+      "1": "قام بتحديث مهمة الفرعية "
+    }
+  },
+  {
+    "Key": "DeleteSubTaskTitle",
+    "LocalizedValue": {
+      "0": " Subtask deleted ",
+      "1": " تم مسح مهمة فرعية "
+    }
+  },
+  {
+    "Key": "DeleteSubTaskBody",
+    "LocalizedValue": {
+      "0": " have deleted the subtask ",
+      "1": " قام بحذف المهمة الفرعية "
+    }
+  },
+  {
+    "Key": "TaskIsInProgressTitle",
+    "LocalizedValue": {
+      "0": " Task Is In Progress ",
+      "1": " مهمة بدأت "
+    }
+  },
+  {
+    "Key": "TaskIsInProgressBody",
+    "LocalizedValue": {
+      "0": " Task Is In Progress ",
+      "1": " المهمة بدأت "
+    }
+  },
+  {
+    "Key": "SubTaskIsInProgressTitle",
+    "LocalizedValue": {
+      "0": " Subtask Is In Progress ",
+      "1": " مهمة الفرعية بدأت "
+    }
+  },
+  {
+    "Key": "SubTaskIsInProgressBody",
+    "LocalizedValue": {
+      "0": " Subtask Is In Progress ",
+      "1": " المهمة الفرعية بدأت "
+    }
+  },
+  {
+    "Key": "MinuteOfMeetingAddedTitle",
+    "LocalizedValue": {
+      "0": " Minutes Of Meeting ",
+      "1": " ملاحظات الاجتماع"
+    }
+  },
+  {
+    "Key": "MinuteOfMeetingAddedBody",
+    "LocalizedValue": {
+      "0": " Added minutes of meeting to the meeting : ",
+      "1": "اضاف ملحوظة جديدة في اجتماع : "
+    }
+  },
+  {
+    "Key": "NoAction",
+    "LocalizedValue": {
+      "0": " No Action Needed ",
+      "1": "لا يوجد اجراء معين"
+    }
+  },
+  {
+    "Key": "NewProject",
+    "LocalizedValue": {
+      "0": " New Project ",
+      "1": "مشروع جديد "
+    }
+  },
+  {
+    "Key": "ExistingProject",
+    "LocalizedValue": {
+      "0": " Existing Project ",
+      "1": "مشروع موجود"
+    }
+  },
+  {
+    "Key": "NewTask",
+    "LocalizedValue": {
+      "0": " New Task ",
+      "1": "مهمة جديدة "
+    }
+  },
+  {
+    "Key": "ExistingTask",
+    "LocalizedValue": {
+      "0": " Existing Task ",
+      "1": "مهمة موجودة "
+    }
+  },
+  {
+    "Key": "NewSubTask",
+    "LocalizedValue": {
+      "0": " New SubTask ",
+      "1": "مهمة فرعية جديدة "
+    }
+  },
+  {
+    "Key": "ExistingSubTask",
+    "LocalizedValue": {
+      "0": " Existing SubTask",
+      "1": " مهمة فرعية موجودة"
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+]

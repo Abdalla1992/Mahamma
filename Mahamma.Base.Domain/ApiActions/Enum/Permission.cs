@@ -1,0 +1,48 @@
+﻿namespace Mahamma.Base.Domain.ApiActions.Enum
+{
+    public enum Permission
+    {
+        AddWorkspace = 1,
+        ViewWorkspace = 2,
+        UpdateWorkspace = 3,
+        DeleteWorkspace = 4,
+        ViewTask = 5,
+        AddTask = 6,
+        UpdateTask = 7,
+        DeleteTask = 8,
+        ArchiveTask = 9,
+        AddFile = 10,
+        ViewFile = 11,
+        DeleteFile = 12,
+        AssignMember = 13,
+        AddComment = 14,
+        AddProject = 15,
+        ViewProject = 16,
+        UpdateProject = 17,
+        DeleteProject = 18,
+        ArchiveProject = 19,
+        ViewRole = 20,
+        AddRole = 21,
+        UpdateRole = 22,
+        DeleteRole = 23,
+        UploadDocument = 24,
+        DownloadDocument = 25,
+        DeleteDocument = 26,
+        SubmitTask = 27,
+        AddSubTask = 28,
+        ViewCharts = 29,
+        AddMeetingGeneral =30,
+        AddMeetingWorkspace =31,
+        AddMeetingProject =32,
+        AddMeetingTask =33,
+        UpdateMeeting =34,
+        DeleteMeeting =35,
+        ViewMeeting =36,
+        UpdateMinuteOfMeeting =37,
+        DeleteMinuteOfMeeting =38,
+        AddMinuteOfMeeting =39,
+        ViewMinuteOfMeeting =40,
+        AddMeeting =41
+
+    }
+}

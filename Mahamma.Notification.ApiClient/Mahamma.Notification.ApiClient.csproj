@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Mahamma.Base.Dto\Mahamma.Base.Dto.csproj" />
+    <ProjectReference Include="..\Mahamma.Base.HttpRequest\Mahamma.Base.HttpRequest.csproj" />
+  </ItemGroup>
+
+</Project>

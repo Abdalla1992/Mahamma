@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Hub\**" />
+    <Compile Remove="Notification\SendSignalRNotification\**" />
+    <EmbeddedResource Remove="Hub\**" />
+    <EmbeddedResource Remove="Notification\SendSignalRNotification\**" />
+    <None Remove="Hub\**" />
+    <None Remove="Notification\SendSignalRNotification\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CorePush" Version="3.0.10" />
+    <PackageReference Include="FluentValidation" Version="10.3.3" />
+    <PackageReference Include="MediatR" Version="9.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.2.2" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="6.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Mahamma.Base.Dto\Mahamma.Base.Dto.csproj" />
+    <ProjectReference Include="..\Mahamma.Base.Resources\Mahamma.Base.Resources.csproj" />
+    <ProjectReference Include="..\Mahamma.Helper.EmailSending\Mahamma.Helper.EmailSending.csproj" />
+    <ProjectReference Include="..\Mahamma.Identity.ApiClient\Mahamma.Identity.ApiClient.csproj" />
+    <ProjectReference Include="..\Mahamma.Notification.Domain\Mahamma.Notification.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

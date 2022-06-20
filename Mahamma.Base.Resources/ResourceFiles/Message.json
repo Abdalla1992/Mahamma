@@ -1,0 +1,521 @@
+﻿[
+  {
+    "Key": "GeneralError",
+    "LocalizedValue": {
+      "0": "An error has occurred please try again",
+      "1": "حدث خطأ ، يرجى المحاولة مرة أخرى"
+    }
+  },
+  {
+    "Key": "InvalidCredentials",
+    "LocalizedValue": {
+      "0": "Invalid username or password",
+      "1": "اسم المستخدم او كلمة المرور غير صحيحة"
+    }
+  },
+  {
+    "Key": "DataAddededSuccessfully",
+    "LocalizedValue": {
+      "0": "Data added successfully",
+      "1": "تم إضافة البيانات بنجاح"
+    }
+  },
+  {
+    "Key": "DataDeletedSuccessfully",
+    "LocalizedValue": {
+      "0": "Data deleted successfully",
+      "1": "تم حذف البيانات بنجاح"
+    }
+  },
+  {
+    "Key": "DataUpdatedSuccessfully",
+    "LocalizedValue": {
+      "0": "Data updated successfully",
+      "1": "تم تعديل البيانات بنجاح"
+    }
+  },
+  {
+    "Key": "NameAlreadyExists",
+    "LocalizedValue": {
+      "0": "Name already exists",
+      "1": "الإسم موجود مسبقا"
+    }
+  },
+  {
+    "Key": "RoleNameAlreadyExists",
+    "LocalizedValue": {
+      "0": "Role name already exists",
+      "1": "إسم الدور موجود مسبقا"
+    }
+  },
+  {
+    "Key": "FailedToAddTheNewData",
+    "LocalizedValue": {
+      "0": "Failed to add the new data. Try again shortly.",
+      "1": "فشل فى اضافة البيانات الجديدة "
+    }
+  },
+  {
+    "Key": "ProcessCompletedSuccessfully",
+    "LocalizedValue": {
+      "0": "Process completed successfully.",
+      "1": "تم اكمال البيانات بنجاح "
+    }
+  },
+  {
+    "Key": "NoDataFound",
+    "LocalizedValue": {
+      "0": "No data found.",
+      "1": "عفوا لم يتم ايجاد اي بيانات"
+    }
+  },
+  {
+    "Key": "FailedToDelete",
+    "LocalizedValue": {
+      "0": "Failed to delete. Try again shortly.",
+      "1": " فشل فى مسح البيانات الجديدة "
+    }
+  },
+  {
+    "Key": "FailedTmodify",
+    "LocalizedValue": {
+      "0": "Failed to modify Language. Try again shortly.",
+      "1": " فشل فى تعديل البيانات الجديدة "
+    }
+  },
+
+  {
+    "Key": "invalidinvitation",
+    "LocalizedValue": {
+      "0": "This invitation is invalid",
+      "1": "هذة الدعوة غير صالحة"
+    }
+  },
+  {
+    "Key": "InvalidInvitationStatusId",
+    "LocalizedValue": {
+      "0": "Invitation Status Id Is Required",
+      "1": "حالة الدعوة غير صالحة"
+    }
+  },
+  {
+    "Key": "SearchedSuccessfully",
+    "LocalizedValue": {
+      "0": "Searched Successfully",
+      "1": "تم البحث بنجاح "
+    }
+  },
+  {
+    "Key": "NoUsersFound",
+    "LocalizedValue": {
+      "0": "There are no users match your search",
+      "1": "لا يوجد مستخدمين "
+    }
+  },
+  {
+    "Key": "FileAddedSuccessfully",
+    "LocalizedValue": {
+      "0": "File Added Successfully",
+      "1": "تم اضافة الملفات بنجاح "
+    }
+  },
+  {
+    "Key": "DataArchivedSuccessfully",
+    "LocalizedValue": {
+      "0": "Data Archived Successfully",
+      "1": "تم اضافة البيانات الى الارشيف "
+    }
+  },
+  {
+    "Key": "FailedToArchiveTheProject",
+    "LocalizedValue": {
+      "0": "Failed to archive the Project. Try again shortly.",
+      "1": "فشل فى  اضافة البيانات الى الارشيف "
+    }
+  },
+  {
+    "Key": "MemberAddedSuccessfully",
+    "LocalizedValue": {
+      "0": "Member Added Successfully",
+      "1": "تم اضافة عضو بنجاح "
+    }
+  },
+  {
+    "Key": "FailedToAddNewMember",
+    "LocalizedValue": {
+      "0": "Failed to add the new Member. Try again shortly.",
+      "1": "فشل فى اضافة عضو جديد  "
+    }
+  },
+  {
+    "Key": "NoActivitiesFound",
+    "LocalizedValue": {
+      "0": "No Activities Found.",
+      "1": "فشل فى ايجاد انشطة"
+    }
+  },
+  {
+    "Key": "ActivitiesFound",
+    "LocalizedValue": {
+      "0": "Activities Found.",
+      "1": "تم ايجاد مجموعة من الانشطة"
+    }
+  },
+  {
+    "Key": "FilesFound",
+    "LocalizedValue": {
+      "0": "Files Found.",
+      "1": "تم ايجاد مجموعة من الملفات"
+    }
+  },
+  {
+    "Key": "FailedToAddTheNewComment",
+    "LocalizedValue": {
+      "0": "Failed to add the new comment. Try again shortly.",
+      "1": "فشل فى اضافة تعليق جديد "
+    }
+  },
+  {
+    "Key": "FailedToComment",
+    "LocalizedValue": {
+      "0": "Faild To Comment",
+      "1": "فشل فى اضافة التعليق  "
+    }
+  },
+  {
+    "Key": "FailedToArchiveTheTask",
+    "LocalizedValue": {
+      "0": "Failed to archive the task. Try again shortly.",
+      "1": "فشل فى  اضافة المهمة الى الارشيف "
+    }
+  },
+  {
+    "Key": "FailedToArchiveTheTaskList",
+    "LocalizedValue": {
+      "0": "Failed to archive the task list. Try again shortly.",
+      "1": "فشل فى  اضافة  قائمة المهمات الى الارشيف "
+    }
+  },
+  {
+    "Key": "CannotDeleteComment",
+    "LocalizedValue": {
+      "0": "Cannot delete comment",
+      "1": "لأا يمكن مسح هذا التعليق "
+    }
+  },
+  {
+    "Key": "FailedToDeleteTheTaskList",
+    "LocalizedValue": {
+      "0": "Failed to delete the task list. Try again shortly.",
+      "1": "فشل فى  مسح  قائمة المهمات الى الارشيف "
+    }
+  },
+  {
+    "Key": "LikedSuccessfully",
+    "LocalizedValue": {
+      "0": "Liked successfully",
+      "1": "فشل فى  مسح  قائمة المهمات الى الارشيف "
+    }
+  },
+  {
+    "Key": "ValidTaskId",
+    "LocalizedValue": {
+      "0": "Task Id Is Less than 1",
+      "1": "الرقم التعريفى الخاص بهذة المهمة اصغر من 1"
+    }
+  },
+  {
+    "Key": "ValidTaskIdList",
+    "LocalizedValue": {
+      "0": "TaskIdList is not valid",
+      "1": "قائمة المستخدمين الخاصة بهذة المهمات غير صحيحة"
+    }
+  },
+  {
+    "Key": "ValidCommentId",
+    "LocalizedValue": {
+      "0": "Comment is Is Less than 1",
+      "1": "الرقم التعريفى الخاص بالكومنت غير متاح"
+    }
+  },
+  {
+    "Key": "FailedToLike",
+    "LocalizedValue": {
+      "0": "Failed to like comment Try again shortly.",
+      "1": "فشل فى عمل لايك لهذا الكومنت"
+    }
+  },
+  {
+    "Key": "FailedToSubmitTask",
+    "LocalizedValue": {
+      "0": "Failed to submit the task. Try again shortly.",
+      "1": "فشل فى اتمام هذة المهمة "
+    }
+  },
+  {
+    "Key": "InvalidDuration",
+    "LocalizedValue": {
+      "0": "Invalid Duration",
+      "1": "المدة غير صالحة"
+    }
+  },
+  {
+    "Key": "InvalidDuration",
+    "LocalizedValue": {
+      "0": "Invalid Duration",
+      "1": "المدة غير صالحة"
+    }
+  },
+  {
+    "Key": "NameIsEmpty",
+    "LocalizedValue": {
+      "0": "Name Is Empty",
+      "1": " خانة الاسم فارغة "
+    }
+  },
+  {
+    "Key": "InvalidDueDate",
+    "LocalizedValue": {
+      "0": "Invalid Due Date",
+      "1": " تاريخ الاستحقاق غير  صالح"
+    }
+  },
+  {
+    "Key": "InvalidFileId",
+    "LocalizedValue": {
+      "0": "File Id Is Less than 1",
+      "1": " الرقم التعريفى الخاص بالملف غير متاح"
+    }
+  },
+  {
+    "Key": "InvalidUserIdList",
+    "LocalizedValue": {
+      "0": "Invalid Users",
+      "1": " قائمة المستخدم غير صحيح"
+    }
+  },
+  {
+    "Key": "InvalidProjectId",
+    "LocalizedValue": {
+      "0": "Project Id Is Less than 1",
+      "1": "الرقم التعريفى الخاص بهذا المشروع اصغر من 1"
+    }
+  },
+  {
+    "Key": "InvalidTaskName",
+    "LocalizedValue": {
+      "0": "Invalid Task Name",
+      "1": "اسم المهمة مطلوب"
+    }
+  },
+  {
+    "Key": "InvalidTaskdurationWithProject",
+    "LocalizedValue": {
+      "0": "Task duration is out of porject duration limit",
+      "1": "وقت المهمة خارج الوقت الخاص بالمشروع"
+    }
+  },
+  {
+    "Key": "InvalidWorkspaceId",
+    "LocalizedValue": {
+      "0": "Workspace Id Is Less than 1",
+      "1": "الرقم التعريفى الخاص بمساحة العمل اصغر من 1"
+    }
+  },
+  {
+    "Key": "NoNameToSearchOn",
+    "LocalizedValue": {
+      "0": "No Name To Search On",
+      "1": "لا يوجد اسم للبحث بدلالته"
+    }
+  },
+  {
+    "Key": "InvalidCompanyId",
+    "LocalizedValue": {
+      "0": "Company Id Is Less than 1",
+      "1": "الرقم التعريفى الخاص بالشركة اصغر من 1"
+    }
+  },
+  {
+    "Key": "InvalidInvitationId",
+    "LocalizedValue": {
+      "0": "Invitation Id Is Requeired",
+      "1": "الرقم التعريفى الخاص بالدعوة اصغر من 1"
+    }
+  },
+  {
+    "Key": "DescreptionIsEmpty",
+    "LocalizedValue": {
+      "0": "Descreption Is Empty",
+      "1": " خانة الوصف فارغة "
+    }
+  },
+  {
+    "Key": "InvalidDueDate",
+    "LocalizedValue": {
+      "0": "DueDate Must Be Greater Than Today",
+      "1": " التاريخ يجب ان يكون اكبر من تاريخ اليوم "
+    }
+  },
+  {
+    "Key": "InvalidProgressPercentage",
+    "LocalizedValue": {
+      "0": "Progress percentage Is Less than 1",
+      "1": "نسبة التقدم اصغر من 1"
+    }
+  },
+  {
+    "Key": "InvalidProgressPercentageGreaterThanOneHundred",
+    "LocalizedValue": {
+      "0": "Progress percentage Is greater than 100",
+      "1": "نسبة التقدم اكبر من 100"
+    }
+  },
+  {
+    "Key": "InvalidTaskPriority",
+    "LocalizedValue": {
+      "0": "Invalid Task Priority",
+      "1": " اولوية المهمة غير صالحة "
+    }
+  },
+  {
+    "Key": "SubmittedTaskHasnNotSubmittedSubtasks",
+    "LocalizedValue": {
+      "0": "Submitted Task Hasn Not Completed Subtasks",
+      "1": "لا يمكن انهاء المهمة بسبب وجود مهام فرعية لديها غير مكتملة"
+    }
+  },
+  {
+    "Key": "UpdateProgressPercentageSuccessfully",
+    "LocalizedValue": {
+      "0": "Progress percentage updated successfully",
+      "1": "تم تحديث نسبة التقدم بنجاح"
+    }
+  },
+  {
+    "Key": "FailedUpdateProgressPercentage",
+    "LocalizedValue": {
+      "0": "Failed to update progress percentage",
+      "1": "حدث خطأ في تحديث نسبة التقدم"
+    }
+  },
+  {
+    "Key": "DataSavedSuccessfully",
+    "LocalizedValue": {
+      "0": "Data Saved Successfully",
+      "1": "تم تحديث البيانات بنجاح"
+    }
+  },
+  {
+    "Key": "FailedToReviewTask",
+    "LocalizedValue": {
+      "0": "Failed to review task",
+      "1": "حدث خطأ في عملية مراجعة المهمة"
+    }
+  },
+  {
+    "Key": "SuccessToReviewTask",
+    "LocalizedValue": {
+      "0": "Task review submitted sucessfully",
+      "1": "تمت عملية مراجعة المهمة بنجاح"
+    }
+  },
+  {
+    "Key": "FailedToUpdateData",
+    "LocalizedValue": {
+      "0": "Failed To Update Data",
+      "1": "حدث خطأ اثناء تحديث البيانات"
+    }
+  },
+  {
+    "Key": "InvalidUserId",
+    "LocalizedValue": {
+      "0": "User Id is less than 1",
+      "1": "الرقم التعريفى الخاص المستخدم اقل من 1"
+    }
+  },
+  {
+    "Key": "MemberSameAsCreatorUser",
+    "LocalizedValue": {
+      "0": "The deleted member is the same as the creator of workspace",
+      "1": "العضو الذي تريد مسحه من مساحة العمل هو نفسه الذي انشأها"
+    }
+  },
+  {
+    "Key": "New",
+    "LocalizedValue": {
+      "0": "New",
+      "1": "المهام الجديدة"
+    }
+  },
+  {
+    "Key": "InProgress",
+    "LocalizedValue": {
+      "0": "In Progress",
+      "1": "المهام الجارية"
+    }
+  },
+  {
+    "Key": "InProgressWithDelay",
+    "LocalizedValue": {
+      "0": "Delayed Tasks",
+      "1": "المهام المتأخرة"
+    }
+  },
+  {
+    "Key": "CompletedEarly",
+    "LocalizedValue": {
+      "0": "Completed Early",
+      "1": "المهام المكتملة مبكرا"
+    }
+  },
+  {
+    "Key": "CompletedOnTime",
+    "LocalizedValue": {
+      "0": "Completed",
+      "1": "المهام المكتملة"
+    }
+  },
+  {
+    "Key": "CompletedLate",
+    "LocalizedValue": {
+      "0": "Completed Late",
+      "1": "المهام المكتملة متأخرا"
+    }
+  },
+  {
+    "Key": "InvalidFolderId",
+    "LocalizedValue": {
+      "0": "Folder Id Is Less than 1",
+      "1": "الرقم التعريفى الخاص بهذا الفولدر اصغر من 1"
+    }
+  },
+  {
+    "Key": "FileUploadedSuccessfullyAndMailsWillBeSent",
+    "LocalizedValue": {
+      "0": "File uploaded successfully and invitations will be sent",
+      "1": "تم تحميل الملف بنجاح وسيتم إرسال الدعوات"
+    }
+  },
+  {
+    "Key": "InvalidExcellFile",
+    "LocalizedValue": {
+      "0": "Invalid Excell file",
+      "1": "ملف Excel غير صالح"
+    }
+  },
+  {
+    "Key": "SuccessToRateMemberTask",
+    "LocalizedValue": {
+      "0": "Success To Rate Member Task",
+      "1": "تم اضافة التقييمات بنجاح"
+    }
+  },
+  {
+    "Key": "FailedToRateMemberTask",
+    "LocalizedValue": {
+      "0": "Failed To Rate Member Task",
+      "1": "فشل فى تقييم العضو بنجاح"
+    }
+  }
+]

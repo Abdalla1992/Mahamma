@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="10.3.3" />
+    <PackageReference Include="MediatR" Version="9.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Identity.Core" Version="5.0.11" />
+    <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="6.13.1" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.13.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Mahamma.ApiClient\Mahamma.ApiClient.csproj" />
+    <ProjectReference Include="..\Mahamma.Base.Dto\Mahamma.Base.Dto.csproj" />
+    <ProjectReference Include="..\Mahamma.Document.Domain\Mahamma.Document.Domain.csproj" />
+    <ProjectReference Include="..\Mahamma.Identity.ApiClient\Mahamma.Identity.ApiClient.csproj" />
+  </ItemGroup>
+
+</Project>

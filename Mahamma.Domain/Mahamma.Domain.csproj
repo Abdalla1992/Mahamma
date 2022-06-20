@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Task\Dto\TaskUserDto.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="9.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Mahamma.Base.Domain\Mahamma.Base.Domain.csproj" />
+    <ProjectReference Include="..\Mahamma.Base.Dto\Mahamma.Base.Dto.csproj" />
+    <ProjectReference Include="..\Mahamma.Identity.ApiClient\Mahamma.Identity.ApiClient.csproj" />
+  </ItemGroup>
+
+</Project>
