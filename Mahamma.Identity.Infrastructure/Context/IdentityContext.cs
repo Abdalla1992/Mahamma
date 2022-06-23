@@ -22,6 +22,7 @@ namespace Mahamma.Identity.Infrastructure.Context
         public DbSet<Language> Language { get; set; }
         public DbSet<PermissionLocalization> PermissionLocalization { get; set; }
         public DbSet<PageLocalization> PageLocalization { get; set; }
+        public DbSet<UserProfileSection> UserProfileSection { get; set; }
         #endregion
 
         #region CTRS
@@ -41,6 +42,7 @@ namespace Mahamma.Identity.Infrastructure.Context
             modelBuilder.ApplyConfiguration(new LanguageEntityTypeConfiguration());
             modelBuilder.ApplyConfiguration(new PermissionLocalizationEntityTypeConfiguration());
             modelBuilder.ApplyConfiguration(new PageLocalizationEntityTypeConfiguration());
+            modelBuilder.ApplyConfiguration(new UserProfileSectionEntityTypeConfiguration());
             modelBuilder.BuildEnums();
             //calling the method from base is a must for AspNetCore.Identity to be put the keys for its entities
             base.OnModelCreating(modelBuilder);

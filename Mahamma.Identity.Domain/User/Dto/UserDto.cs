@@ -1,5 +1,6 @@
 ﻿using Mahamma.Base.Dto.Dto;
 using System;
+using System.Collections.Generic;
 
 namespace Mahamma.Identity.Domain.User.Dto
 {
@@ -22,6 +23,7 @@ namespace Mahamma.Identity.Domain.User.Dto
         public int LanguageId { get; set; }
         public string Bio { get; set; }
         public string Skills { get; set; }
+        public List<UserProfileSectionDto> UserProfileSections { get; set; }
         #endregion
     }
 }

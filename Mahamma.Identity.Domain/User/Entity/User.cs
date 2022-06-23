@@ -2,6 +2,7 @@
 using Mahamma.Identity.Domain.Language.Enum;
 using Microsoft.AspNetCore.Identity;
 using System;
+using System.Collections.Generic;
 
 namespace Mahamma.Identity.Domain.User.Entity
 {
@@ -20,6 +21,7 @@ namespace Mahamma.Identity.Domain.User.Entity
         public string Skills { get; set; }
         public DateTime CreationDate { get; set; }
         public int DeletedStatus { get; set; }
+       public ICollection<UserProfileSection> UserProfileSections { get; set; }
         #endregion
 
         #region Merhods
@@ -68,6 +70,7 @@ namespace Mahamma.Identity.Domain.User.Entity
             Skills = skills;
         }
 
+   
         #endregion
     }
 }

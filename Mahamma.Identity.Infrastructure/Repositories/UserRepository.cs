@@ -27,7 +27,7 @@ namespace Mahamma.Identity.Infrastructure.Repositories
 
         public async Task<UserDto> GetById(long id)
         {
-            return Mapper.Map<UserDto>(await FirstOrDefaultAsync(m => m.Id == id && m.DeletedStatus != DeletedStatus.Deleted.Id));
+            return Mapper.Map<UserDto>(await FirstOrDefaultAsync(m => m.Id == id && m.DeletedStatus != DeletedStatus.Deleted.Id, "UserProfileSections"));
         }
 
         public async Task<List<MemberDto>> GetUserList(List<long> idList)

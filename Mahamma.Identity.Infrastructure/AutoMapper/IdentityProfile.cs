@@ -20,6 +20,7 @@ namespace Mahamma.Identity.Infrastructure.AutoMapper
 
         private void UserMapping()
         {
+            CreateMap<Domain.User.Entity.UserProfileSection, Domain.User.Dto.UserProfileSectionDto>();
             CreateMap<Domain.User.Entity.User, Domain.User.Dto.UserDto>()
                 .ForMember(dto => dto.CompanyId, dto => dto.MapFrom(u => u.CompanyId.HasValue ? u.CompanyId.Value : default));
         }
