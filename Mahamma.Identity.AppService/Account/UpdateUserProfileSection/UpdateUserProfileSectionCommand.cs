@@ -14,17 +14,17 @@ namespace Mahamma.Identity.AppService.Account.UpdateUserProfileSection
     public class UpdateUserProfileSectionCommand : IRequest<ValidateableResponse<ApiResponse<bool>>>
     {
         #region Props
+        public long UserId { get; set; }
         public List<UserProfileSectionDto> UserProfileSections { get; set; }
-
-        public UpdateUserProfileSectionCommand(List<UserProfileSectionDto> userProfileSections)
-        {
-            UserProfileSections = userProfileSections;
-        }
 
         #endregion
 
         #region CTRS
-
+        public UpdateUserProfileSectionCommand(long userId, List<UserProfileSectionDto> userProfileSections)
+        {
+            UserId = userId;
+            UserProfileSections = userProfileSections;
+        }
         #endregion
     }
 }

@@ -35,10 +35,15 @@ namespace Mahamma.Identity.AppService.Account.UpdateUserProfileSection
         public async Task<ValidateableResponse<ApiResponse<bool>>> Handle(UpdateUserProfileSectionCommand request, CancellationToken cancellationToken)
         {
             ValidateableResponse<ApiResponse<bool>> response = new(new ApiResponse<bool>());
-            User user = await _userRepository.GetUserById(request.UserProfileSections.FirstOrDefault().UserId);
+            User user = await _userRepository.GetUserById(request.UserId);
             if (user != null)
             {
-                user.UserProfileSections.Clear();
+                if (user.UserProfileSections != null)
+                    user.UserProfileSections.Clear();
+                else
+                    user.UserProfileSections = new List<UserProfileSection>();
+
+
                 request.UserProfileSections.ForEach(x => user.UserProfileSections.Add(new UserProfileSection().CreateUserSection(x.SectionId, x.OrderId)));
 
                 if (await _userRepository.UnitOfWork.SaveEntitiesAsync(cancellationToken))// && (await _roleManager.UpdateAsync(role)).Succeeded)

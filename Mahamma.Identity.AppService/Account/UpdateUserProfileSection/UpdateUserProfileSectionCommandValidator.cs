@@ -11,9 +11,14 @@ namespace Mahamma.Identity.AppService.Account.UpdateUserProfileSection
     {
         public UpdateUserProfileSectionCommandValidator()
         {
+            RuleFor(command => command.UserId).GreaterThan(0).WithMessage("User Id is required");
             RuleFor(command => command.UserProfileSections).NotEmpty().WithMessage("User Profile Sections required");
-            //RuleFor(command => command.SectionId).GreaterThan(0).WithMessage("Section Id is required");
-            //RuleFor(command => command.UserId).GreaterThan(0).WithMessage("User Id is required");
+            RuleForEach(command => command.UserProfileSections).ChildRules(ps =>
+            {
+                ps.RuleFor(x => x.SectionId).GreaterThan(0).WithMessage("Section Id is required");
+                ps.RuleFor(x => x.OrderId).GreaterThan(0).WithMessage("Order Id is required");
+
+            });
         }
     }
 }

@@ -15,6 +15,7 @@ using Mahamma.Identity.AppService.Account.GetAccountList;
 using Mahamma.Identity.Domain.User.Dto;
 using Mahamma.Identity.AppService.Account.ForgetPassword;
 using Serilog;
+using Mahamma.Identity.AppService.Account.UpdateUserProfileSection;
 
 namespace Mahamma.Identity.Api.Controllers
 {
@@ -107,6 +108,13 @@ namespace Mahamma.Identity.Api.Controllers
         public async Task<IActionResult> ForgetPassword(string email)
         {
             return Ok(await Mediator.Send(new ForgetPasswordCommand(email)));
+        }
+
+        [HttpPost]
+        [AllowAnonymous]
+        public async Task<IActionResult> UpdateProfileSection([FromBody] UpdateUserProfileSectionCommand command)
+        {
+            return Ok(await Mediator.Send(command));
         }
     }
 }

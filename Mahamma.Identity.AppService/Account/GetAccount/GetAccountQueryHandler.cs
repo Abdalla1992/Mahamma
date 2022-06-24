@@ -44,6 +44,8 @@ namespace Mahamma.Identity.AppService.Account.GetAccount
             if (userDto != null)
             {
                 response.Result.CommandMessage = $"Process completed successfully.";
+                if (userDto.UserProfileSections?.Count > default(int))
+                    userDto.UserProfileSections = userDto.UserProfileSections.OrderBy(x => x.OrderId).ToList();
                 response.Result.ResponseData = userDto;
                 var user = _userManager.Users.Where(u => u.Id == request.Id).FirstOrDefault();
                 response.Result.ResponseData.RoleId = await _userRoleRepository.GetRoleIdByUserId(request.Id);

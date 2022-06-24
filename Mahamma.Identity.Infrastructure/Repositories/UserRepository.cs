@@ -22,7 +22,7 @@ namespace Mahamma.Identity.Infrastructure.Repositories
 
         public async Task<User> GetUserById(long id)
         {
-            return await FirstOrDefaultAsync(m => m.Id == id && m.DeletedStatus != DeletedStatus.Deleted.Id);
+            return await FirstOrDefaultAsync(m => m.Id == id && m.DeletedStatus != DeletedStatus.Deleted.Id, "UserProfileSections");
         }
 
         public async Task<UserDto> GetById(long id)

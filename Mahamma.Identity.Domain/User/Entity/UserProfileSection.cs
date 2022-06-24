@@ -1,6 +1,4 @@
 ﻿using Mahamma.Base.Domain;
-using Mahamma.Identity.Domain.Language.Enum;
-using Microsoft.AspNetCore.Identity;
 using System;
 
 namespace Mahamma.Identity.Domain.User.Entity
@@ -15,15 +13,13 @@ namespace Mahamma.Identity.Domain.User.Entity
         #endregion
 
         #region Methods
-         public UserProfileSection CreateUserSection(int sectionId, int orderId)
-          {
+        public UserProfileSection CreateUserSection(int sectionId, int orderId)
+        {
             OrderId = orderId;
             SectionId = sectionId;
             CreationDate = DateTime.Now;
             DeletedStatus = Base.Dto.Enum.DeletedStatus.NotDeleted.Id;
             return this;
-            }
-
         }
         #endregion
     }
