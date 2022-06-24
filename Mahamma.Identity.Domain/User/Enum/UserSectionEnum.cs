@@ -11,9 +11,9 @@ namespace Mahamma.Identity.Domain.User.Enum
     {
         #region Enum Values
         public static UserSectionEnum Task = new(1, nameof(Task));
-        public static UserSectionEnum Bio = new(1, nameof(Bio));
-        public static UserSectionEnum WorkHistory = new(1, nameof(WorkHistory));
-        public static UserSectionEnum RejectedTask = new(1, nameof(RejectedTask));
+        public static UserSectionEnum Bio = new(2, nameof(Bio));
+        public static UserSectionEnum WorkHistory = new(3, nameof(WorkHistory));
+        public static UserSectionEnum RejectedTask = new(4, nameof(RejectedTask));
        
         #endregion
         #region CTRS
